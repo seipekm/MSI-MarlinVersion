@@ -13,7 +13,7 @@
 //#define SIMULATE_ROMFONT
 #define DISPLAY_CHARSET_ISO10646_1
 
-#define WELCOME_MSG                         MACHINE_NAME " bereit."
+#define WELCOME_MSG                         "Drucker bereit."
 #define MSG_SD_INSERTED                     "SDKarte erkannt."
 #define MSG_SD_REMOVED                      "SDKarte entfernt."
 #define MSG_MAIN                            "Hauptmenü"
@@ -126,6 +126,9 @@
 #define MSG_HEATING_COMPLETE                "Aufgeheizt"
 #define MSG_BED_HEATING                     "Bett aufheizen"
 #define MSG_BED_DONE                        "Bett aufgeheizt"
+#define MSG_FILAMENTCHANGE_BQ               "Filament"
+#define MSG_LOAD                            "Laden"
+#define MSG_UNLOAD                          "Entladen"
 
 #if ENABLED(DELTA_CALIBRATION_MENU)
   #define MSG_DELTA_CALIBRATE               "Delta kalibrieren"
